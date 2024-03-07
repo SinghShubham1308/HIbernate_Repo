@@ -12,5 +12,6 @@
 		
 		<property name="show_sql">true</property>
 		<property name="format_sql">true</property>
+		<mapping class="com.notetracker.entity.Note"/>
 	</session-factory>
 </hibernate-configuration>
