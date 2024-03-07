@@ -12,11 +12,11 @@
 		
 		<property name="show_sql">true</property>
 		<property name="format_sql">true</property>
-		<!-- <mapping class="com.hibernate.entity.Student"/>
+		<mapping class="com.hibernate.entity.Student"/>
 		<mapping class="com.hibernate.entity.Address"/>
 		
 		<mapping class="com.hibernate.entity.Question"/>
-		<mapping class="com.hibernate.entity.Answer"/> -->
+		<mapping class="com.hibernate.entity.Answer"/> 
 		<mapping class="com.hibernate.entity.Employee"/>
 		<mapping class="com.hibernate.entity.Projects"/>
 	</session-factory>
