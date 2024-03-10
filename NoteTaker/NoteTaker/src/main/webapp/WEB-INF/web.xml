@@ -10,8 +10,28 @@
   	<description></description>
   	<servlet-class>com.notetracker.servlet.Noteservlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Deleteservlet</servlet-name>
+  	<display-name>Deleteservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.notetracker.servlet.Deleteservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Updateservlet</servlet-name>
+  	<display-name>Updateservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.notetracker.servlet.Updateservlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Noteservlet</servlet-name>
   	<url-pattern>/Noteservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Deleteservlet</servlet-name>
+  	<url-pattern>/Deleteservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Updateservlet</servlet-name>
+  	<url-pattern>/Updateservlet</url-pattern>
   </servlet-mapping>
 </web-app>

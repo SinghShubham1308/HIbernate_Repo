@@ -15,6 +15,7 @@ public class Note {
 	
 	private int id;
 	private String title;
+	@Column(length = 1500)
 	private String description;
 	private Date createdDate;
 
