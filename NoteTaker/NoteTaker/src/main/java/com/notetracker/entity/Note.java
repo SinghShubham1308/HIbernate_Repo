@@ -5,8 +5,6 @@ import java.util.Random;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
@@ -14,7 +12,7 @@ public class Note {
 
 	@Id
 	@Column(name = "NoteID")
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	
 	private int id;
 	private String title;
 	private String description;
@@ -52,7 +50,7 @@ public class Note {
 		this.createdDate = createdDate;
 	}
 
-	public Note(int id, String title, String description, Date createdDate) {
+	public Note(String title, String description, Date createdDate) {
 		super();
 		this.id = new Random().nextInt(100000);
 		this.title = title;

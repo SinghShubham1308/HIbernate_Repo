@@ -1,3 +1,54 @@
 .purple {
-    background: #673ab7;
+	background: #673ab7;
+}
+
+.card {
+	width: 18rem;
+	margin-bottom: 20px; /* Add some margin between cards */
+	border: 1px solid #ccc; /* Add a border to the card */
+	border-radius: 8px; /* Add border-radius for rounded corners */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	/* Add a shadow for a lifted effect */
+	flex: 0 0 30%; /* Each card takes 30% of the container's width */
+	margin: 10px; /* Add margin between cards */
+}
+
+.row {
+	margin: 10px; /* Margin between rows */
+}
+
+.card-body {
+	padding: 1.25rem; /* Add padding inside the card body */
+}
+
+.card-title {
+	font-size: 1.25rem; /* Customize the font size of the card title */
+	margin-bottom: 0.75rem; /* Add some margin below the title */
+}
+
+.card-text {
+	margin-bottom: 1rem; /* Add some margin below the card text */
+}
+
+.btn-danger {
+	color: #fff; /* Text color */
+	background-color: #dc3545; /* Background color */
+	border-color: #dc3545; /* Border color */
+	padding: 0.375rem 0.75rem; /* Padding for the button */
+	font-size: 1rem; /* Font size of the button text */
+	border-radius: 4px; /* Border radius */
+	text-decoration: none; /* Remove underlining */
+}
+
+.btn-danger:hover {
+	background-color: #c82333; /* Change background color on hover */
+	border-color: #bd2130; /* Change border color on hover */
+}
+
+img {
+	max-width: 25%;
+	height: 50px;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
 }
