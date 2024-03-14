@@ -13,10 +13,10 @@ public class Answer {
 	}
 
 	@Id
-	@Column(name = "AnswerID")
+	@Column(name = "AnswerID" )
 	private int answerId;
 	private String answervalue;
-//	@OneToOne(mappedBy = "answer")
+//	@OneTo(mappedBy = "answer",cascade)
 //	@JoinColumn(name = "QuestionID")
 	@ManyToOne
 	private Question question;
